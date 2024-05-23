@@ -1,8 +1,11 @@
-= 2
+a = 2
 b = "3"
 
 
-print(a + b)
+aksnokanf
+
+    sajfpnsfpk 
+    print(a + b)
 
 
 

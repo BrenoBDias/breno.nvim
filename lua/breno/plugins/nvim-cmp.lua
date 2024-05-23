@@ -29,6 +29,12 @@ return {
     "saadparwaiz1/cmp_luasnip", -- for autocompletion
     "rafamadriz/friendly-snippets", -- useful snippets
     "onsails/lspkind.nvim", -- vs-code like pictograms
+	{
+		"neovim/nvim-lspconfig",
+		config = function()
+			require'lspconfig'.pyright.setup{}
+		end,
+		}
   },
   config = function()
     local cmp = require("cmp")
@@ -61,7 +67,7 @@ return {
       -- sources for autocompletion
       sources = cmp.config.sources({
         { name = "nvim_lsp"},
-        { name = "luasnip" }, -- snippets
+        { name = "lu feasnip" }, -- snippets
         { name = "buffer" }, -- text within current buffer
         { name = "path" }, -- file system paths
       }),
