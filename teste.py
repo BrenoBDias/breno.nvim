@@ -1,35 +1,14 @@
-a = 2
-b = "3"
+print('Hello, world')
 
+a=2
+b={3,}
 
-aksnokanf
+while a<10:
+    print(a)
+    a+=1
 
-    sajfpnsfpk 
-    print(a + b)
+print('end')
 
-
-
-
-a={
-    1,
-    2,
-    3,
-    4,
-    5
-    6,
-    7,
-}
-
-def asdf():
-    if true:
+class piroca:
+    def __init__(self):
         pass
-
-
-    else:
-        pass
-
-
-
-    return 0
-
-    
